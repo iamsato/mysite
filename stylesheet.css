@@ -1,5 +1,131 @@
 @media screen and (max-width:480px) {
 
+   .rinku1{
+    margin: 84px;
+    margin-top: 80px;
+    text-decoration: none;
+    color: #E0C38C;
+    font-size: 15px;
+   } 
+
+   .rinku2{
+    margin-left: 60px;
+    text-decoration: none;
+    color: #E0C38C;
+    font-size: 15px;
+   }
+
+   .manga{
+    
+   }
+
+   .manga img{
+    width: 50%;
+    padding-bottom: 30px;
+   }
+
+   .hurugi{
+   }
+
+   .hurugi img{
+    width: 50%;
+    padding-bottom: 30px;
+   }
+
+   .moji1{
+    padding: 30px;
+   }
+
+   .moji2{
+    display: none;
+   }
+
+   .nimaime{
+    padding: 60px 0px 60px 0px;
+   }
+
+}
+
+@media screen and (min-width:481px) {
+
+    /* .myname{
+        padding-top: 100x;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: 'Noto Serif';
+        color: #E0C38C;
+    } */
+
+    .mokuji{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .gu img{
+        width: 30%;
+    }
+
+    .rinku1{
+        text-decoration: none;
+        /* padding-left: 0px;
+        padding-right: 200px;
+        padding-top: 80px;
+        padding-bottom: 30px; */
+        color: #E0C38C;
+    }
+    
+    .rinku2{
+        text-decoration: none;
+        /* padding-left: 130px;
+        padding-right: 0px;
+        padding-top: 80px;
+        padding-bottom: 30px; */
+        color: #E0C38C;
+    }    
+
+    .manga{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .manga img{
+        width: 15%;
+    }
+    
+    .hurugi{
+        width: 100%;
+        padding-top: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .hurugi img{
+        width: 15%;
+    }
+
+    .moji1{
+        display: none;
+    }
+
+    .nimaime{
+        padding: 100px 0px 120px 0px;
+    }
+
+    .korokoro{
+        padding-top: 70px;
+    }
+
+    .sukinamono{
+        padding-top: 70px;
+    }
+
 }
 
 .img-box{
@@ -13,7 +139,7 @@
     display: flex;
     flex-direction: row; 
     justify-content: center;
-    padding-top: 70px;
+    align-items: center
 }
 
 .moji{
@@ -21,62 +147,23 @@
     font-family: 'Noto Serif';
 }
 
-.sukinamono{
-    padding-top: 70px;
-}
-
-.manga{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.manga img{
-    width: 15%;
-}
-
-.hurugi{
-    width: 100%;
-    padding-top: 120px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.hurugi img{
-    width: 15%;
-}
-
-.me{
+/* .me{
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-top: 0px;
     padding-bottom: 100px;
-}
+} */
 
-.gu{
-    width: 30%;
+/* .gu{
     padding: 0px 40px;
 }
 .gu img{
-    width: 100%;
-}
+    width: 30%;
+} */
 
 body{
     background-color:#5B7E91;
-}
-
-.myname{
-    padding-top: 100x;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: 'Noto Serif';
-    color: #E0C38C;
 }
 
 a{
@@ -86,11 +173,6 @@ a{
     font-family: 'Noto Serif';
     font-weight: bold;
     padding-top: 30px;
-}
-
-.title1{
-    display: flex;
-    justify-content: center;
 }
 
 li{
@@ -151,24 +233,6 @@ footer{
     transform: scale(1.1, 1.1);
 }
 
-.rinku1{
-    text-decoration: none;
-    padding-left: 0px;
-    padding-right: 200px;
-    padding-top: 80px;
-    padding-bottom: 30px;
-    color: #E0C38C;
-}
-
-.rinku2{
-    text-decoration: none;
-    padding-left: 130px;
-    padding-right: 0px;
-    padding-top: 80px;
-    padding-bottom: 30px;
-    color: #E0C38C;
-}
-
 .rinku1:hover{
     color:#e6b422;
     text-decoration: none;
@@ -189,16 +253,12 @@ footer{
     text-decoration: none;
 }
 
-.mokuji{
+/* .mokuji{
     padding: 50px 0px 50px 0px;
-}
+} */
 
 .itimaime{
     padding: 50px 0px 50px 0px;
-}
-
-.nimaime{
-    padding: 100px 0px 120px 0px;
 }
 
 .annnai{

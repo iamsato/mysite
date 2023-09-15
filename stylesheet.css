@@ -1,18 +1,28 @@
 @media screen and (max-width:480px) {
 
+    .yuu{
+        text-align: center;
+    }
+
    .rinku1{
-    margin: 84px;
-    margin-top: 80px;
     text-decoration: none;
     color: #E0C38C;
     font-size: 15px;
    } 
 
    .rinku2{
-    margin-left: 60px;
     text-decoration: none;
     color: #E0C38C;
     font-size: 15px;
+   }
+
+   .gu{
+    padding-top: 30px;
+    padding-bottom: 30px;
+   }
+
+   .gu img{
+    width: 50%;
    }
 
    .manga{
@@ -48,40 +58,33 @@
 
 @media screen and (min-width:481px) {
 
-    /* .myname{
-        padding-top: 100x;
+    .yuu{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        font-family: 'Noto Serif';
-        color: #E0C38C;
-    } */
+        padding: 100px 0px 150px 0px;
+    }
 
-    .mokuji{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+    .myprofile{
+        text-align: center;
+    }
+
+    .myfavorite{
+        text-align: center;
     }
 
     .gu img{
-        width: 30%;
+        width: 60%;
+        padding-top: 30px;
     }
 
     .rinku1{
         text-decoration: none;
-        /* padding-left: 0px;
-        padding-right: 200px;
-        padding-top: 80px;
-        padding-bottom: 30px; */
         color: #E0C38C;
     }
     
     .rinku2{
         text-decoration: none;
-        /* padding-left: 130px;
-        padding-right: 0px;
-        padding-top: 80px;
-        padding-bottom: 30px; */
         color: #E0C38C;
     }    
 
@@ -119,7 +122,7 @@
     }
 
     .korokoro{
-        padding-top: 70px;
+        padding-top: 50px;
     }
 
     .sukinamono{
@@ -147,21 +150,6 @@
     font-family: 'Noto Serif';
 }
 
-/* .me{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 0px;
-    padding-bottom: 100px;
-} */
-
-/* .gu{
-    padding: 0px 40px;
-}
-.gu img{
-    width: 30%;
-} */
-
 body{
     background-color:#5B7E91;
 }
@@ -172,7 +160,6 @@ a{
     text-align: center;
     font-family: 'Noto Serif';
     font-weight: bold;
-    padding-top: 30px;
 }
 
 li{
@@ -252,10 +239,6 @@ footer{
     color:#e6b422;
     text-decoration: none;
 }
-
-/* .mokuji{
-    padding: 50px 0px 50px 0px;
-} */
 
 .itimaime{
     padding: 50px 0px 50px 0px;

@@ -4,4 +4,10 @@
 .img-box {
     width:100%;
     text-align: center;
+}.img-box img{
+    width:50%;
+}
+.img-box {
+    width:100%;
+    text-align: center;
 }
